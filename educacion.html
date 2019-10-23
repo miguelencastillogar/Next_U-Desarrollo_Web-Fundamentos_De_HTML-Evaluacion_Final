@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja de Vida</title>
+</head>
+
+<body>
+
+    <header>
+        <svg width="200" height="100">
+            <image width="150" height="100" xlink:href="img/icon.svg" />
+        </svg>
+        <h1>Hoja de Vida</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>Datos Personales</h2>
+            <h3>Miguel Enmanuel Castillo Garc&iacute;a | 13/09/1986 | Santo Domingo, Republica Domonicana</h3>
+        </article>
+    </section>
+
+    <br>
+
+    <nav>
+        <a href="index.html" title="Inicio">Inicio</a> |
+        <a href="educacion.html" title="Educación">Educaci&oacute;n</a> |
+        <a href="experiencia.html" title="Experiencia">Experiencia </a>
+    </nav>
+
+    <br>
+
+    <section>
+        <article>
+            <h2>Educaci&oacute;n</h2>
+            
+            <table border="1"  cellpadding="10" cellspacing="0">
+                <thead>
+                    <th>Año</th>
+                    <th>Instituci&oacute;n</th>
+                    <th>Lugar</th>
+                    <th>¿Culmin&oacute;?</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form autocomplete="off" id="formularioAgregarEstudios">
+
+                <h2>Agregar Estudios</h2>
+
+                <label for="anoEstudios"><strong>Año:</strong></label>
+                <select name="anoEstudios">
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016" selected>2016</option>
+                </select>
+
+                <br> <br>
+
+                <label for="institucionEstudios"><strong>Instituci&oacute;n:</strong></label>
+                <input type="text" name="institucionEstudios" size="28" required>
+
+                <br> <br>
+
+                <label for="lugarEstudios"><strong>Lugar:</strong></label>
+                <textarea name="lugarEstudios" cols="34" rows="3"></textarea>
+
+                <br> <br> <br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <h2>Contacto</h2>
+
+        <ul>
+            <li><a href="mailto:miguel.en.castillo.gar@gmail.com?subject=Saludo" title="Correo Electrónico">Correo
+                    Electr&oacute;nico</a></li>
+            <li><strong>Tel&eacute;fono: </strong> (809) 383-1309</li>
+            <li><strong>Dirreci&oacute;n:</strong> Calle Bartolome Col&oacute;n #4, Sector Villa Consuelo</li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
